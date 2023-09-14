@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "Younes",
+      "email": "nes_yu@hotmail.fr",
+      "password": "yedkhfukjfv",
+      "imgpath": "1694636992039-Younes ZEROUALI ARKx.png",
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "email": "zerouali.younes@gmail.com",
+      "password": "jyhdjhfhc",
+      "imgpath": "1694637178903-a propos.png",
+      "id": 2
+    },
+    {
+      "username": "yu",
+      "email": "nes_yu@hotmail.fr",
+      "password": "kjhkjhj",
+      "imgpath": "1694637848144-16334389697806_p1c2-4.png",
+      "id": 3
+    },
+    {
+      "username": "admin",
+      "email": "nes_yu@hotmail.fr",
+      "password": "djhfdch ",
+      "imgpath": "1694638068535-criminal-man-hidden-mask-hold-shotgun-points-something-with-binary-code-background.jpg",
+      "id": 4
+    },
+    {
+      "username": "admin11",
+      "email": "zerouali.younes@gmail.com",
+      "password": "11111111111",
+      "imgpath": "1694647034822-BYFA3100.JPG",
+      "id": 5
+    },
+    {
+      "username": "samia",
+      "email": "samia@samia.com",
+      "password": "145236987",
+      "imgpath": "1694680470597-IMG_0028.JPG",
+      "id": 6
+    }
+  ]
+}
