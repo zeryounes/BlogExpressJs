@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style-register.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+       <img src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp" alt="header-image" class="cld-responsive">
+            <h1 class="form-title">Create Blog</h1>
+            <form action="/blog/createBlog" method="post" enctype="multipart/form-data">
+               <input type="text" placeholder="Title" name="title">
+            
+               <input type="text" placeholder="Description" name="description">
+               <input type="text" placeholder="Text" name="text"><br>
+
+              <input type="file" name="blogimg"  >
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+ </div>
+
+
+</body>
+</html>

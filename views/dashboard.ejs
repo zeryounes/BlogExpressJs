@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="style-dashboard.css"> -->
 </head>
 <body>
 
@@ -11,7 +12,33 @@
   <form action="/logout" method="post">
       <button>logout</button>
   </form>
-  <img src="/uploads/<%=imgpath %>" alt="">
+  <img src="/uploads/<%=imgpath %>" alt="" width="200px" height="300px">
+
+  <br>
+<hr>
+  <div class="container mx-auto p-6 ">
+
+    <table id="dataTable" class="w-full whitespace-no-wrap bg-white dark:bg-gray-800 overflow-hidden table-striped">
+      <thead>
+        <tr>
+          <th class="px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs" data-field="id">ID</th>
+          <th class="px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs" data-field="name">Name</th>
+          <th class="px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs" data-field="status">Status</th>
+          <th class="px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <%blogs.forEach(b=>{%>
+        <tr class="">
+          <td><%=b.title%></td>
+          <td><%=b.description%></td>
+          <td><a href="">editer</a></td>
+          <td><a href="">supprimer</a></td>
+        </tr>
+        <%})%>
+      </tbody>
+    </table>
+  </div>
 </body>
 
 </html>

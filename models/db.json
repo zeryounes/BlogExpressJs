@@ -3,7 +3,7 @@
     {
       "username": "Younes",
       "email": "nes_yu@hotmail.fr",
-      "password": "yedkhfukjfv",
+      "password": "younes",
       "imgpath": "1694636992039-Younes ZEROUALI ARKx.png",
       "id": 1
     },
@@ -41,6 +41,45 @@
       "password": "145236987",
       "imgpath": "1694680470597-IMG_0028.JPG",
       "id": 6
+    },
+    {
+      "username": "samia",
+      "email": "samia@samia.com",
+      "password": "tofita",
+      "imgpath": "1694683851952-FKWF4767.JPG",
+      "id": 7
+    },
+    {
+      "username": "abdou",
+      "email": "abdou@basset.com",
+      "password": "123456789",
+      "imgpath": "1694691271282-BYFA3100.JPG",
+      "id": 8
+    },
+    {
+      "username": "zerouali",
+      "email": "zerouali.younes@gmail.com",
+      "password": "zerouali",
+      "imgpath": "1694974799890-FYZX1343.JPG",
+      "id": 9
+    }
+  ],
+  "blogs": [
+    {
+      "title": "admlf,mlk",
+      "description": ",ds:knds",
+      "text": "knnxvcn",
+      "imgpath": "default.jpg",
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "title": "b1",
+      "description": "desc1",
+      "text": "text1",
+      "imgpath": "default.jpg",
+      "authorId": 2,
+      "id": 2
     }
   ]
 }

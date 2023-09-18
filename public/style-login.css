@@ -1,6 +1,7 @@
 body {
     background: #222D32;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .login-box {
@@ -32,7 +33,7 @@ body {
 
 .login-form {
     margin-top: 25px;
-    text-align: left;
+    text-align: center;
 }
 
 input[type=text] {
@@ -99,6 +100,7 @@ label {
     font-weight: bold;
     letter-spacing: 1px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-left: 701px;
 }
 
 .btn-outline-primary:hover {
