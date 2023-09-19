@@ -26,4 +26,4 @@ exports.getBlogs = async () =>{
     });
  }
 
- this.getUserBlogs(1).then(blogs=>console.log(blogs))
+//  this.getUserBlogs(1).then(blogs=>console.log(blogs))

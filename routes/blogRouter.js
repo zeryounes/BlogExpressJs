@@ -57,3 +57,34 @@ blogRouter.get('/:id',async (req,res)=>{
   const blog = await getBlog(id)
   res.render('blog.ejs',{blog:blog})
 })
+
+blogRouter.get('/edit/:id',verifyJwt,async(req,res)=>{
+  const user=req.user
+  if(user){
+    const id = req.params.id
+    const blog = await getBlog(id)
+    if(blog.authorId===user.id) res.render('edit.ejs',{blog:blog})
+    else res.redirect('/dashboard')
+  }
+  else res.redirect('/login')
+})
+
+blogRouter.post('/edit/:id',upload.single('blogimg'),verifyJwt,async(req,res)=>{
+  const {title,description,text} = req.body
+  const id = req.params.id
+  const existBlog= await getBlog(id)
+  const imgpath=req.file ? req.file.filename : existBlog.imgpath
+  const blog = {
+      title:title,
+      description:description,
+      text:text,
+      imgpath:imgpath
+  }
+  axios.patch(`http://localhost:3000/blogs/${id}`,blog).then(
+    res.redirect('/dashboard')
+  ).catch(console.log('erreur'))
+})
+
+blogRouter.post('/delete/:id',async(req,res)=>{
+   await axios.delete(`http://localhost:3000/blogs/${req.params.id}`)
+})

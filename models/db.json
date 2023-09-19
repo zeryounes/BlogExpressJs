@@ -62,17 +62,16 @@
       "password": "zerouali",
       "imgpath": "1694974799890-FYZX1343.JPG",
       "id": 9
+    },
+    {
+      "username": "salwa",
+      "email": "salwa@salwa.salwa",
+      "password": "123456",
+      "imgpath": "1695120527087-AHQL1430.JPG",
+      "id": 10
     }
   ],
   "blogs": [
-    {
-      "title": "admlf,mlk",
-      "description": ",ds:knds",
-      "text": "knnxvcn",
-      "imgpath": "default.jpg",
-      "authorId": 1,
-      "id": 1
-    },
     {
       "title": "b1",
       "description": "desc1",
@@ -80,6 +79,13 @@
       "imgpath": "default.jpg",
       "authorId": 2,
       "id": 2
+    },
+    {
+      "title": "ffffffff",
+      "description": "ffffffffffffff",
+      "text": "ffffffffffffff",
+      "imgpath": "1695120627806-a propos.png",
+      "id": 3
     }
   ]
 }
